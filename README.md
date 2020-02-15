@@ -33,12 +33,14 @@ The website developer can also reject the issue if it is not a bug
 Also, mention suitable comments, as to why you are closing the ticket
  * If everything fine, then remove ![new-ticket](images/new_ticket.png) and apply ![ticket-verified](images/ticket_verified.png)
   * Mention comments for developer if any using **@developerName** followed by the comment
+ * Update the *assignes* list by removing your name and then add the developer name
   
 ##### 2. Check tickets with ![testing](images/testing.png) labels #####
 * Verify whether the issue has been fixed
 * Verify no other functionalities have been affected
 * If verification successful, then remove ![testing](images/testing.png) label and apply ![solution-verified](images/solution_verified.png)
 * If verification failed, then remove ![testing](images/testing.png) label and apply ![solution-incorrect](images/solution_incorrect.png), and mention clearly in the comments as to what is happening
+* Update the *assignes* list by removing your name and then add the developer name
 
 **Workflow** 
 1. Tester (Lafi staff) raises a new ticket with label ![new-ticket](images/new_ticket.png)
